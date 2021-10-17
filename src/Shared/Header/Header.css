@@ -1,0 +1,41 @@
+.user a{
+    text-decoration: none;
+}
+.food-page a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 5px;
+}
+.food-page a:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: orangered;
+    text-decoration: underline;
+}
+.banner{
+    background-image: url('../../images/bannerbackground.png');
+    background-position: center;
+    background-size: 110vw;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+.search-box{
+    display: flex;
+    overflow: hidden;
+    border-radius: 35px;
+    margin-top: 9px;
+    /* padding: 12px; */
+}
+.search-box input {
+    /* mar */
+    border: none;
+    outline: none;
+    margin-left: 13px;
+    padding: 11px 0;
+}
+.search-box Button {
+    border-radius: 0px;
+    border: none;
+    outline: none;
+}
